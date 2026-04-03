@@ -1,46 +1,54 @@
-```markdown
+Understood. Here's a clean, badge‑free README.md that doesn't rely on external image links – all text and emoji, fully self‑contained and copy‑ready.
+
+
 # 📁 Directory File Analyzer
 
-[![Python 3.6+](https://img.shields.io/badge/python-3.6+-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+**Python 3.6+** | **MIT License** | **Zero Dependencies**
 
 > Recursively scan any directory and get instant insights: file count, total size, largest/smallest files, top file extensions – all with a clean, modular Python script.
 
+---
+
 ## 🚀 Features
 
-- **Recursive scanning** – crawls through all subdirectories
-- **Human-readable sizes** – auto-converts B → KB → MB → GB
-- **Instant insights** – shows largest file, smallest file, and top 3 extensions
-- **Optional report export** – saves analysis to a `.txt` file
-- **Zero dependencies** – uses only Python standard library
-- **Modular architecture** – easy to extend or reuse components
+- ✅ **Recursive scanning** – crawls through all subdirectories  
+- ✅ **Human-readable sizes** – auto‑converts B → KB → MB → GB  
+- ✅ **Instant insights** – largest file, smallest file, top 3 extensions  
+- ✅ **Optional report export** – saves analysis to a `.txt` file  
+- ✅ **Zero external dependencies** – uses only Python standard library  
+- ✅ **Modular architecture** – easy to extend or reuse components  
+
+---
 
 ## 📦 Installation
 
 ```bash
 # Clone the repository
-git clone https://github.com/lelextb/directory-analyzer.git
+git clone https://github.com/yourusername/directory-analyzer.git
 cd directory-analyzer
 
-# (No pip install needed – pure Python)
+# No pip install – pure Python
 ```
+
+---
 
 ## 🖥️ Usage
 
-Run from the command line and enter a directory path when prompted:
+**Interactive mode** – you type the directory path when prompted:
 
 ```bash
 python main.py
 ```
 
-Or pass the directory as an argument:
+**Direct mode** – pass the directory as a command‑line argument:
 
 ```bash
 python main.py /path/to/your/folder
 ```
 
-### Example output
+---
+
+## 📊 Example Output
 
 ```
 === Directory File Analyzer ===
@@ -70,6 +78,8 @@ Save report to file? (y/n): y
 Report saved to: report_myapp.txt
 ```
 
+---
+
 ## 🗂️ Project Structure
 
 ```
@@ -82,24 +92,31 @@ directory_analyzer/
 │   └── formatters.py     # Human-readable sizes
 ├── output/               # Reporting
 │   └── reporter.py       # Console & file output
-└── requirements.txt      # (empty – no deps)
+└── requirements.txt      # (empty – no dependencies)
 ```
+
+---
 
 ## 🛠️ Extending the Tool
 
 The modular design makes it easy to add features:
 
-- **Add file type filtering** – modify `scanner.py` to ignore certain extensions
-- **Add CSV export** – extend `reporter.py` with a `save_csv()` function
-- **Add progress bar** – integrate `tqdm` (optional) in `scanner.py`
+- **Filter by file type** – modify `scanner.py` to ignore certain extensions  
+- **Export to CSV** – add a `save_csv()` function in `reporter.py`  
+- **Add a progress bar** – integrate `tqdm` (optional) in `scanner.py`  
+
+---
 
 ## 📄 License
 
-MIT – free to use, modify, and distribute.
+**MIT** – free to use, modify, and distribute.
+
+---
 
 ## 🤝 Contributing
 
-Issues and pull requests are welcome! For major changes, please open an issue first.
+Issues and pull requests are welcome!  
+For major changes, please open an issue first to discuss.
 
 ---
 
