@@ -24,7 +24,7 @@ Understood. Here's a clean, badge‑free README.md that doesn't rely on external
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/directory-analyzer.git
+git clone https://github.com/lelextb/directory-analyzer.git
 cd directory-analyzer
 
 # No pip install – pure Python
